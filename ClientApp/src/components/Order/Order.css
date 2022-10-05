@@ -1,0 +1,609 @@
+.OrderHitoricPage .modat-body-text {
+  margin-left: 2rem;
+  align-items: center;
+  display: flex;
+}
+
+.OrderHitoricPage .cardHistoric {
+  border: solid 1px #f76c39;
+  padding: 20px;
+  background: #f76c39;
+  color: white;
+  margin: 25px;
+  border-radius: 6px;
+}
+
+.OrderHitoricPage .cardHistoricBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.OrderHitoricPage .wallet-card{
+  display: flex;
+  /* height: 500px; */
+  background: #432184;
+  color: white;
+  margin-bottom: 60px;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 6px;
+  font-size: 24px;
+  max-width: 600px;
+  flex-direction: column;
+}
+.OrderHitoricPage .wallet-item{
+  display: flex;
+  margin: 4px 0px 4px 0px;
+}
+
+.OrderHitoricPage .wallet-title{
+
+}
+
+
+.OrderHitoricPage .wallet-title-fist {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.OrderHitoricPage .wallet-row {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.OrderHitoricPage .wallet-value{
+  min-width: 110px;
+  text-align: end;
+}
+
+.OrderHitoricPage .card{
+  min-height: 80vh;
+}
+
+
+
+.OrderHitoricPage .editInput{
+  border: none;
+  border-bottom: solid 1px;
+  outline: none!important;
+}
+
+.OrderHitoricPage .btn-kim.btn-success {
+  font-family: VAG-Bold;
+  padding: 2%;
+  font-size: 1.8em;
+  background: #007e75!important;
+  border: none;
+  border-radius: 4px;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  overflow: hidden;
+}
+
+.OrderHitoricPage .btn-kim-page-box{
+  display: flex;
+  justify-content: center;
+  /* width: 233px; */
+  flex: 1;
+}
+
+.OrderHitoricPage .MuiInputBase-input:focus {
+  outline: 0;
+}
+
+.OrderHitoricPage .margin-right{
+  margin-right: 10px;
+}
+
+.OrderHitoricPage .btn-detail-order {
+  color: #fff!important;
+  background-color: #007e75!important;
+  border-color: #007e75!important;
+}
+.OrderHitoricPage .btn-detail-order:not(:disabled):not(.disabled).active, .btn-detail-order:not(:disabled):not(.disabled):active, .show>.btn-detail-order.dropdown-toggle {
+  color: #fff;
+  background-color: #007e75!important;
+  border-color: #007e75!important;
+}
+
+.OrderHitoricPage .MuiTableCell-alignLeft span {
+  font-size: 14px;
+}
+
+.OrderHitoricPage .MuiTableCell-alignLeft {
+  text-align: left;
+  font-size: 14px!important;
+}
+
+.OrderHitoricPage .bold{
+  font-weight: bold;
+}
+
+.OrderHitoricPage .modal-title-sucess {
+  color: #28a745;
+}
+
+.OrderHitoricPage .padding{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+h3, h4{
+  color: #707070;
+}
+
+.OrderHitoricPage .detail {
+  display: flex; }
+
+
+  .OrderHitoricPage .order-detail {
+    margin-top: 20px;
+    border: 2px solid #38c4b5;
+    border-radius: 12px;
+    padding: 0 20px 20px;
+    color: #707070;
+    font-family: VAG-Bold;
+}
+
+.OrderHitoricPage .order-detail-title{
+  font-family: VAG-Bold;
+  margin-top: 20px;
+    margin-bottom: 10px
+}
+
+
+
+.OrderHitoricPage .order-detail > div {
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  font-family: VAG-Light;
+}
+
+
+.OrderHitoricPage .order-detail > div p {
+  font-family: VAG-Bold;
+  white-space: nowrap;
+  font-size: 1.4em;
+  margin: 4px 0;
+  font-family: VAG-Light;
+}
+
+.OrderHitoricPage .order-detail > div p:first-of-type {
+  margin-right: 4px;
+  font-family: VAG-Bold;
+}
+
+.OrderHitoricPage .detail-footer {
+  margin-top: 15px;
+  padding: 20px;
+}
+
+.OrderHitoricPage .maxButton{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.OrderHitoricPage .info{
+  font-family: VAG-Bold!important;
+color: #51bbf5;
+}
+.OrderHitoricPage .collum {
+  flex-direction: column!important;
+}
+
+.OrderHitoricPage .flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+ .OrderHitoricPage .payment-boleto {
+  margin-top: 20px;
+  border: 2px solid #38c4b5;
+  border-radius: 12px;
+  padding: 0 20px 20px;
+  color: #707070; }
+
+ .OrderHitoricPage .order-hitoric {
+  width: 100%;
+  margin: 20px 0px 22px 0px;
+  /* border: 2px solid #007E75; */
+  border-left: 2px solid #007E75;
+  padding: 0 30px 30px;
+  margin-left: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* box-shadow: 8px 10px 14px rgba(0,0,0,0.3); */
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+ }
+    .OrderHitoricPage  .order-hitoric:before {
+      content: '\f058 ';
+      position: absolute;
+      height: 58px;
+      width: 55px;
+      background: #ffffff;
+      left: -30px;
+      top: 0px;
+      font-size: 37px;
+      text-align: center;
+      color: #007e75;
+      line-height: 50px;
+  
+  } 
+    .OrderHitoricPage  .order-hitoric:after {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: white;
+    left: -22px;
+    border-radius: 50px;
+    top: 8px;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+   .OrderHitoricPage  .order-hitoric.status-1:after {
+    content: "\f058";
+    color: #007e75;
+    font-size: 44px;
+  }
+   .OrderHitoricPage  .order-hitoric.status-2:after {
+    content: "\e66c";
+    background: #33b3a4; } 
+   .OrderHitoricPage  .order-hitoric .history-content {
+    width: 100%; }
+     .OrderHitoricPage  .order-hitoric .history-content p {
+      color: #707070;
+      font-family: VAG-Light;
+      font-size: 1.5em;
+      display: flex;
+      align-items: center;
+      margin: 0; }
+       .OrderHitoricPage  .order-hitoric .history-content p.date {
+        color: #929292;
+        width: 100%; }
+         .OrderHitoricPage  .order-hitoric .history-content p.date .icon {
+          font-size: 1.3em; }
+       .OrderHitoricPage  .order-hitoric .history-content p .value {
+        font-family: VAG-Bold;
+        color: #007e75;
+        font-size: 2em; }
+       .OrderHitoricPage  .order-hitoric .history-content p .method {
+        font-family: VAG-Bold;
+        font-size: 1.3em;
+        margin: 0 10px; }
+     .OrderHitoricPage  .order-hitoric .history-content .cards .card-item {
+      color: #707070;
+      font-family: VAG-Bold;
+      font-size: 1.5em; }
+     .OrderHitoricPage  .order-hitoric .history-content .footer {
+      margin-top: 10px;
+      display: flex; }
+       .OrderHitoricPage  .order-hitoric .history-content .footer .btn-order {
+        text-transform: uppercase;
+        font-size: 1.3em;
+        padding: 8px 0;
+        z-index: 1; }
+         .OrderHitoricPage  .order-hitoric .history-content .footer .btn-order:after {
+          content: "\e030";
+          font-family: 'Glyphicons Halflings';
+          position: absolute;
+          font-size: 5em;
+          top: -40px;
+          -moz-transform: rotate(-136deg);
+          -ms-transform: rotate(-136deg);
+          -o-transform: rotate(-136deg);
+          -webkit-transform: rotate(-136deg);
+          transform: rotate(-136deg);
+          left: 20px;
+          color: #33b3a4;
+          -moz-transition: all .2s ease;
+          -o-transition: all .2s ease;
+          -webkit-transition: all .2s ease;
+          transition: all .2s ease;
+          z-index: -1; } 
+         .OrderHitoricPage  .order-hitoric .history-content .footer .btn-order:hover:after {
+          color: #1d766c;
+          -moz-transform: rotate(-116deg);
+          -ms-transform: rotate(-116deg);
+          -o-transform: rotate(-116deg);
+          -webkit-transform: rotate(-116deg);
+          transform: rotate(-116deg); } */
+         .OrderHitoricPage  .order-hitoric .history-content .footer .btn-order.btn-replay:after {
+          content: "\e030";
+          color: #33b3a4; }
+         .OrderHitoricPage  .order-hitoric .history-content .footer .btn-order.btn-replay:hover:after {
+          color: #1d766c; }
+         .OrderHitoricPage  .order-hitoric .history-content .footer .btn-order.btn-cancel:after {
+          content: "\e014";
+          color: #841818;
+          -moz-transform: rotate(0);
+          -ms-transform: rotate(0);
+          -o-transform: rotate(0);
+          -webkit-transform: rotate(0);
+          transform: rotate(0); }
+         .OrderHitoricPage  .order-hitoric .history-content .footer .btn-order.btn-cancel:hover:after {
+          color: #4e1212;
+          -moz-transform: rotate(-20deg);
+          -ms-transform: rotate(-20deg);
+          -o-transform: rotate(-20deg);
+          -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg); }
+   .OrderHitoricPage  .order-hitoric .history-action {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
+     .OrderHitoricPage  .order-hitoric .history-action .btn-kim {
+      padding: 5px 15px; }
+
+      .OrderHitoricPage  .OrderHitoricPage  .container-center .details {
+ position: fixed;
+  width: 100%; }
+   .OrderHitoricPage  .container-center .details .detail {
+    margin-top: 20px;
+    border: 2px solid #38c4b5;
+    border-radius: 12px;
+    padding: 0 20px 20px;
+    color: #707070;
+    font-family: VAG-Bold; }
+     .OrderHitoricPage  .container-center .details .detail h2 {
+      font-family: VAG-Bold;
+      white-space: nowrap; }
+     .OrderHitoricPage  .container-center .details .detail > div {
+      display: flex;
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      font-family: VAG-Light; }
+       .OrderHitoricPage  .container-center .details .detail > div p {
+        font-family: VAG-Bold;
+        white-space: nowrap;
+        font-size: 1.4em;
+        margin: 4px 0;
+        font-family: VAG-Light; }
+         .OrderHitoricPage  .container-center .details .detail > div p.status-1 {
+          color: #3eaae4; }
+         .OrderHitoricPage  .container-center .details .detail > div p.status-2 {
+          color: #33b3a4; }
+       .OrderHitoricPage  .container-center .details .detail > div.detail-log {
+        display: flex;
+        font-size: 1.1em; }
+         .OrderHitoricPage  .container-center .details .detail > div.detail-log:first-of-type {
+          margin-top: 5px; }
+         .OrderHitoricPage  .container-center .details .detail > div.detail-log p {
+          font-family: VAG-Light;
+          width: 100%; }
+           .OrderHitoricPage  .container-center .details .detail > div.detail-log p.log-desc {
+            text-align: center; }
+           .OrderHitoricPage  .container-center .details .detail > div.detail-log p i.icon {
+            background: #00c5b6;
+            height: 32px;
+            width: 32px;
+            float: right;
+            border-radius: 18px;
+            position: relative; }
+             .OrderHitoricPage  .container-center .details .detail > div.detail-log p i.icon:before {
+              content: "\e013";
+              font-family: 'Glyphicons Halflings';
+              color: white;
+              font-size: .7em;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 6px;
+              top: 4px; }
+       .OrderHitoricPage  .container-center .details .detail > div p:first-of-type {
+        margin-right: 4px;
+        font-family: VAG-Bold; }
+     .OrderHitoricPage  .container-center .details .detail.detail-middle {
+      margin-top: 15px;
+      padding: 20px; }
+       .OrderHitoricPage  .container-center .details .detail.detail-middle table {
+        margin: 0; }
+         .OrderHitoricPage  .container-center .details .detail.detail-middle table tbody {
+          display: flex;
+          flex-direction: column; }
+           .OrderHitoricPage  .container-center .details .detail.detail-middle table tbody tr {
+            border-bottom: 1px solid #efefef;
+            margin-bottom: 12px;
+            float: left;
+            padding-bottom: 12px;
+            display: flex; }
+             .OrderHitoricPage  .container-center .details .detail.detail-middle table tbody tr:last-of-type {
+              border-bottom: none; }
+             .OrderHitoricPage  .container-center .details .detail.detail-middle table tbody tr td {
+              border: none;
+              padding: 0;
+              font-family: VAG-Bold;
+              font-size: 1.5em;
+              width: 100%; }
+               .OrderHitoricPage  .container-center .details .detail.detail-middle table tbody tr td:last-of-type {
+                text-align: right;
+                width: auto; }
+               .OrderHitoricPage  .container-center .details .detail.detail-middle table tbody tr td p {
+                margin: 0;
+                white-space: nowrap; }
+                 .OrderHitoricPage  .container-center .details .detail.detail-middle table tbody tr td p.small {
+                  font-family: VAG-Light; }
+     .OrderHitoricPage  .container-center .details .detail.detail-footer {
+      margin-top: 15px;
+      padding: 20px; }
+       .OrderHitoricPage  .container-center .details .detail.detail-footer div p.info {
+        color: #51bbf5; }
+       .OrderHitoricPage  .container-center .details .detail.detail-footer div.taxa-servico p {
+        font-family: VAG-Light; }
+   .OrderHitoricPage  .container-center .details .btn-boleto {
+    margin-top: 10px; }
+   .OrderHitoricPage  .container-center .details .btn-close {
+    margin-top: 15px; }
+
+@media (max-width: 991px) {
+   .OrderHitoricPage  .container-center.detail-open {
+    display: none; }
+   .OrderHitoricPage  .container-center .details {
+    position: relative;
+    width: 100%;
+    /*right: 20%;*/ }
+     .OrderHitoricPage  .container-center .details .btn-kim {
+      display: block;
+      margin-top: 10px; } }
+
+@media (max-width: 768px) {
+   .OrderHitoricPage  .container-center .details {
+    /*width: 90%;*/
+    /*right: 5%;*/ } }
+
+@media (max-width: 480px) {
+   .OrderHitoricPage  .container-center {
+    width: 90%; }
+     .OrderHitoricPage .order-hitoric {
+      margin-left: 22px; }
+       .OrderHitoricPage .order-hitoric .history-content > p {
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        align-items: flex-start; }
+         .OrderHitoricPage .order-hitoric .history-content > p .method {
+          margin: -10px 0 25px; }
+       .OrderHitoricPage .order-hitoric .history-content .footer {
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column; }
+         .OrderHitoricPage .order-hitoric .history-content .footer .btn-kim {
+          margin-top: 20px; }
+          .OrderHitoricPage .container-center .details .detail {
+      padding: 0 10px 10px;
+      overflow: hidden; }
+      .OrderHitoricPage  .container-center .details .detail > div.detail-log {
+        font-size: .8em; }
+        .OrderHitoricPage   .container-center .details .detail > div.detail-log p.log-desc {
+          margin: 4px 10px; }
+          .OrderHitoricPage  .container-center .details .detail > div.detail-log p i.icon {
+          height: 26px;
+          width: 26px;
+          margin-top: -5px; }
+          .OrderHitoricPage   .container-center .details .detail > div.detail-log p i.icon:before {
+            left: 5px;
+            top: 4px; } }
+            .OrderHitoricPage    .btn-detail-order:hover {
+              color: #fff;
+              background-color: #007e75;
+              border-color: #007e75;
+          }
+          .OrderHitoricPage .modal-content {
+          box-shadow: 10px 15px 16px #43218473;
+          }
+
+
+
+
+.OrderHitoricPage  .MuiToolbar-gutters {
+            padding-left: 0px;
+          }
+
+ .OrderHitoricPage  div[class^="MTableToolbar-actions-"]{
+  width: 1000%;
+ }
+
+ .OrderHitoricPage  div[class^="MTableToolbar-actions-"]  span{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+ }
+
+ /* .OrderHitoricPage .modal-body{
+  display: flex;
+ }
+
+ .OrderHitoricPage .modat-body-text{
+  padding-left: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ } */
+
+ .OrderHitoricPage .MuiToolbar-root > div {
+
+  flex: 1;
+}
+
+ .OrderHitoricPage .MuiToolbar-root div:last-child {
+
+  flex: 999;
+}
+ 
+
+.OrderHitoricPage .MuiToolbar-root div:last-child span {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+
+.OrderHitoricPage button:focus {
+
+  outline: 0px auto -webkit-focus-ring-color!important;
+}
+
+
+.divider_box{
+  border: solid 2px #F1F0FF;
+  padding: 0px 10px;
+  margin-bottom: 40px;
+}
+
+.divider_box h5{
+  position: relative;
+  top: -15px;
+  width: fit-content;
+  background: white;
+  left: 10px;
+}
+
+.card-header-detail {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  /* background-color: #f8f9fc; */
+  /* border-bottom: 1px solid #e3e6f0; */
+
+}
+
+.card-header-detail:first-child {
+  border-radius: calc(0.35rem - 1px) calc(0.35rem - 1px) 0 0;
+}
+
+.card-header-detail + .list-group .list-group-item:first-child {
+  border-top: 0;
+}
+
+.card-header-detail-title{
+  font-size: 1.25rem;
+  /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+  font-weight: 500;
+  line-height: 1.6;
+}

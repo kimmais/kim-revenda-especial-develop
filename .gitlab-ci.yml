@@ -1,0 +1,75 @@
+# stages:
+#   - code-analysis
+#   # - react_build
+
+# code-analysis:
+#   stage: code-analysis
+# #   image: mcr.microsoft.com/dotnet/core/sdk:3.1.302
+#   image: microsoft/dotnet-nightly
+#   before_script:
+#     - dotnet --info
+#     - curl -sL https://deb.nodesource.com/setup_10.x | bash -
+#     - apt-get install -y nodejs
+#     - npm install -g yarn
+#   script:
+#     - dotnet restore
+#     - dotnet build --no-restore -c Release
+#     - dotnet publish -c Release -o publish
+
+
+  # artifacts:
+  #   paths:
+  #     - publish
+
+
+
+# react-web:
+#   stage: react-web
+#   image: node:alpine3.11
+#   script:
+#     - cd ClientApp
+#     - yarn
+#     - npx react-scripts build --prod
+
+
+#   artifacts:
+#     paths:
+#       - build
+
+
+# image: node:latest
+
+# cache:
+#     paths:
+#         - node_modules/
+
+# stages:
+#     - setup
+#     - build
+
+# setup:
+#     stage: setup
+#     script:
+#         - echo "Setup started"
+#         - cd ClientApp
+#         - pwd
+#         - yarn
+#     artifacts:
+#         paths:
+#             - node_modules/
+
+# build:
+#     stage: build
+#     script: 
+#         - cd ClientApp
+#         - pwd
+#         - yarn add react
+#         - yarn add react-dom
+#         - pwd
+#         - yarn build
+#     artifacts:
+#         paths:
+#             - build/
+
+
+

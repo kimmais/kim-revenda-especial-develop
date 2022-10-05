@@ -1,0 +1,12 @@
+.white-breadcrumb {
+    background-color: white !important;
+    margin-top: 15px !important;
+}
+
+.portlet {
+    max-height: 350px;
+}
+
+.big-text{
+    font-size: 35px !important;
+}

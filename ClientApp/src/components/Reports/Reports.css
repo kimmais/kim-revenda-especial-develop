@@ -1,0 +1,29 @@
+.padding{
+padding: 10px;
+}
+
+.card_report_box{
+  flex-direction: row!important;
+  justify-content: space-evenly!important;
+  display: flex;
+}
+
+.card_report{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  background: #ee6c39!important;
+}
+
+.card_report_icon{
+  font-size: 80px;
+  color: white;
+}
+
+.card_report_title{
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 0px 10px;
+}

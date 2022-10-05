@@ -1,0 +1,68 @@
+table span {
+    font-size: small;
+}
+
+.footer_report {
+    margin: 14px;
+}
+.footer_report button
+{
+    margin-right: 14px;
+}
+
+.filter .title{
+    margin: 14px;
+}
+
+.filter .filter_options{
+    display: flex;
+} 
+
+.filter .search_date_box{
+    display: flex;
+}
+
+.filter .search_date_box .search_date{
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+
+.filter_button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.search_order{
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+
+
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #collapseMenu{
+        display: none;
+    }
+
+    .report *
+    {
+        visibility: visible;
+    }
+    .btn-resultado{
+        display: none;
+    }
+
+    .filter{
+        display: none!important;
+    }
+
+    @page{
+         size: portrait;
+        }
+    }

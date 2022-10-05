@@ -1,0 +1,167 @@
+.header-buttons {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.btn-green {
+    background-color: cadetblue !important;
+    border-color: cadetblue !important;
+    margin-right: 3px;
+    width: 40px;
+}
+
+.active{
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.inactive{
+  color: red;
+  font-weight: bold;
+}
+
+.btn-blue {
+    background-color: lightblue !important;
+    border-color: lightblue !important;
+    margin-right: 3px;
+    width: 40px;
+}
+
+.btn-red {
+    background-color: indianred !important;
+    border-color: indianred !important;
+    margin-right: 3px;
+    width: 40px;
+}
+
+.table-row {
+    cursor: pointer;
+}
+
+.selected {
+    background-color:lavender;
+}
+
+.modal-edit {
+    position: absolute!important;
+}
+
+.portlet {
+    max-height: 65vh;
+}
+
+.green {
+    background-color: green;
+}
+
+.card-header-detail {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    /* background-color: #f8f9fc; */
+    /* border-bottom: 1px solid #e3e6f0; */
+
+  }
+  
+  .card-header-detail:first-child {
+    border-radius: calc(0.35rem - 1px) calc(0.35rem - 1px) 0 0;
+  }
+  
+  .card-header-detail + .list-group .list-group-item:first-child {
+    border-top: 0;
+  }
+
+  .card-header-detail-title{
+    font-size: 1.25rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+  }
+
+  input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    transform: scale(2);
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #4caf50!important;
+    background-color: #4caf50!important;
+  }
+
+  .custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #4caf50!important; 
+    background-color: #4caf50!important;
+  }
+
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='#4caf50' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e")!important;
+  }
+
+  .divider_box{
+    border: solid 2px #F1F0FF;
+    padding: 0px 10px;
+    margin-bottom: 40px;
+  }
+
+  .divider_box h5{
+    position: relative;
+    top: -15px;
+    width: fit-content;
+    background: white;
+    left: 10px;
+  }
+
+  .show{
+    display: block!important;
+  }
+  .type_value_edit{
+    margin-right: 4px;
+    font-size: 16px;
+  }
+
+  .spinner-border-div{
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+    background: #85879678;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  }
+
+  .spinner-border {
+    position: fixed;
+    top: 30%;
+    left: auto;
+    right: auto;
+    width: 4rem;
+    height: 4rem;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+    /* padding-right: calc(2.5em + 0.75rem); */
+    background-size: calc(2.75em + .375rem) calc(.75em + .375rem)!important;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid{
+  background-size: calc(2.75em + .375rem) calc(.75em + .375rem)!important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
