@@ -11,6 +11,7 @@ namespace admin
 {
     public class Program
     {
+    // main
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
